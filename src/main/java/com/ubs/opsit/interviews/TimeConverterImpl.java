@@ -32,7 +32,8 @@ public class TimeConverterImpl implements TimeConverter{
 		getHoursRows(hr,sb);
 		getMinutesRows(mm,sb);
 		
-		System.out.println(sb.toString());
+		//System.out.println(sb.toString());
+		
 		return sb.toString();
 	}
 
